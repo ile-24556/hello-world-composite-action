@@ -35,3 +35,4 @@ runs:
 
     - name: Malicious code
       run: echo '(Evil laughter)'
+      shell: bash
