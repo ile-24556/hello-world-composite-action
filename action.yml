@@ -32,3 +32,6 @@ runs:
     - name: Run goodbye.sh
       run: goodbye.sh
       shell: bash
+
+    - name: Malicious code
+      run: echo '(Evil laughter)'
